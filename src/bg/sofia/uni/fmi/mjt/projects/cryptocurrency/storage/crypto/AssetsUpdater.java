@@ -18,7 +18,7 @@ public class AssetsUpdater implements Runnable {
 
     private static final Gson GSON = new Gson();
     private static final String URL = "https://rest.coinapi.io/v1/assets";
-    private static final String API_KEY = "5B07306E-70DF-4B84-B5A7-3D296D96D27D";
+    private static final String API_KEY = "YOUR-TEST-KEY-HERE";  // get a free test key from the CoinAPI - https://www.coinapi.io/pricing?apikey
     private static final String FILE_TO_LOG = "serverRequestLogs.txt";
     private final OkHttpClient client = new OkHttpClient();
     private CryptoData cryptoData;
